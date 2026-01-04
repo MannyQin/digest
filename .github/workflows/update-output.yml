@@ -2,7 +2,7 @@ name: Update RSS Feed
 
 on:
   schedule:
-    - cron: '0 21 * * *'
+    - cron: '0 4,11,17,23 * * *'
   workflow_dispatch:
 
 jobs:
