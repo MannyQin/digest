@@ -12,7 +12,7 @@ import (
 	"github.com/gomarkdown/markdown"
 )
 
-const maxDays = 30
+const maxDays = 370
 
 func main() {
 	if err := run(); err != nil {
